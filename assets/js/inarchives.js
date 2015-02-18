@@ -4,12 +4,14 @@
 ( function( window, undefined ) {
 	'use strict';
 
+	var counter = countdown(  new Date(2015, 2, 10) ).toString();
+	document.getElementById('countdown').innerHTML = counter;
 
-		window.setInterval(addToPage, 1000);
+	window.setInterval(addToPage, 1000);
 
 	function addToPage() {
-		var counter = countdown(  new Date(2015, 2, 10) ).toString();
-		// console.log(counter);
+		counter = countdown(  new Date(2015, 2, 10) ).toString();
+		document.getElementById('countdown').innerHTML = counter;
 	}
 
  } )( this );

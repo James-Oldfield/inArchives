@@ -30,7 +30,7 @@
         
 <div class="header text-center">
 	<h2>THE WORST PART OF LIFE</h2>
-	<h1>30 DAYS 24 HOURS 00 MINUTES 02 SECONDS</h1>
+	<h1 id="countdown"></h1>
 	<h3>Send us your photos here: THEWORSTPARTOFLIFE@GMAIL.COM</h3>
 	<h3>Email reminder <a href="/">CLICK HERE</a></h3>
 </div>
