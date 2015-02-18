@@ -5,4 +5,11 @@
 	'use strict';
 
 
+		window.setInterval(addToPage, 1000);
+
+	function addToPage() {
+		var counter = countdown(  new Date(2015, 2, 10) ).toString();
+		// console.log(counter);
+	}
+
  } )( this );

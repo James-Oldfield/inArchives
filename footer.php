@@ -7,8 +7,8 @@
     
 </div>
 
-<!--B.S-->
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/countdown.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/inarchives.min.js"></script>
 
 </body>
 </html>
