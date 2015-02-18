@@ -1,0 +1,21 @@
+/**
+ * inArchives
+ * http://james-oldfield.co
+ *
+ * Copyright (c) 2015 James Oldfield
+ * Licensed under the GPLv2+ license.
+ */
+
+@font-face {
+	font-family: 'Mohave';
+  src: url('../../assets/fonts/Mohave.otf') format('opentype');
+}
+
+body {
+ 	font-family: 'Mohave', sans-serif!important;
+ 	background: #fff;
+}
+
+.header{
+	border-bottom: solid 2px black;
+}
