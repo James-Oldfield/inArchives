@@ -16,6 +16,30 @@ body {
  	background: #fff;
 }
 
-.header{
-	border-bottom: solid 2px black;
+.header {
+	border-bottom: solid 3px black;
+	background: url(../../images/girlBackground.jpg) no-repeat top;
+	background-size: 100% auto;
+}
+
+// THUMBNAILS
+.attachment-post-thumb {
+	max-width: 100%!important;
+	height: auto!important;
+}
+
+// MAIN CONTENT
+.main {
+	padding: 30px 10%;
+
+	.title p{
+		font-size: 18px;
+		margin: 15px 0!important;
+		color: black;
+	}
+}
+
+// FOOTER
+.social-icons {
+	margin: 25px 0 50px 0;
 }

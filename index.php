@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="container text-center">
+<div class="main container text-center">
     
 <!--post loop-->
 <?php

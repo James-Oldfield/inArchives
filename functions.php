@@ -1,4 +1,15 @@
 <?php
+
+// POST THUMBNAILS
+  add_theme_support( 'post-thumbnails' );
+  add_image_size( 'post-thumb', 1600, 900, true );
+  set_post_thumbnail_size( 1600, 900, true );
+
+  // HIDE ADMIN BAR
+  add_filter('show_admin_bar', '__return_false');
+
+  add_filter( 'post_thumbnail_html', 'my_post_image_html', 10, 3 );
+
 /**
  * inArchives functions and definitions
  *
@@ -31,9 +42,6 @@ define( 'WPTHEME_VERSION', '0.1.0' );
 	 * to change 'wptheme' to the name of your theme in all template files.
 	 */
 	load_theme_textdomain( 'wptheme', get_template_directory() . '/languages' );
-	  add_theme_support( 'post-thumbnails' );
-	  add_image_size( 'post-thumb', 700, 700, true );
-	  set_post_thumbnail_size( 700, 700, true );
 
  }
  

@@ -13,6 +13,22 @@ body {
   background: #fff; }
 
 .header {
-  border-bottom: solid 2px black; }
+  border-bottom: solid 3px black;
+  background: url(../../images/girlBackground.jpg) no-repeat top;
+  background-size: 100% auto; }
+
+.attachment-post-thumb {
+  max-width: 100% !important;
+  height: auto !important; }
+
+.main {
+  padding: 30px 10%; }
+  .main .title p {
+    font-size: 18px;
+    margin: 15px 0 !important;
+    color: black; }
+
+.social-icons {
+  margin: 25px 0 50px 0; }
 
 /*# sourceMappingURL=inarchives.css.map */

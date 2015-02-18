@@ -31,7 +31,7 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         
-<div class="header container text-center">
+<div class="header text-center">
 	<h2>THE WORST PART OF LIFE</h2>
 	<h1>30 DAYS 24 HOURS 00 MINUTES 02 SECONDS</h1>
 	<h3>Send us your photos here: THEWORSTPARTOFLIFE@GMAIL.COM</h3>
