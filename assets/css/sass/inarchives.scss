@@ -11,19 +11,56 @@
 $myBlack: #1a1a1a;
 $myWhite: #fff;
 
+::selection{
+    color: $myWhite;
+    background: $myBlack;
+}
+::-moz-selection{
+    color: $myWhite;
+    background: $myBlack;
+}
+
 body {
  	font-family: 'Mohave', sans-serif!important;
  	background: $myWhite;
  	margin-top: -20px;
+ 	word-wrap: break-word!important;
 }
 
 .header {
 	border-bottom: solid 3px $myBlack;
 	background: url(../../images/girlBackground.jpg) top;
 	background-size: 100% auto;
-	padding: 30px 0!important;
+	padding: 30px 20px!important;
+
+	a {
+		text-decoration: none;
+		color: $myBlack;
+	}
+
+	h2{
+		font-family: 'Mohave Italics', sans-serif;
+		letter-spacing: 10px;
+	}
+
+	h3 {
+		font-family: 'Mohave Italics', sans-serif;
+		letter-spacing: 5px;
+
+		a{
+			padding: 0 5px;
+			transition: background 0.1s ease;
+			transition: color 0.1s ease;
+
+			&:hover {
+				background: $myBlack;
+				color: $myWhite;
+			}
+		}
+	}
 
 	#countdown {
+		font-size: 50px;
 		font-family: 'Mohave-Bold', sans-serif!important;
 	}
 
@@ -65,7 +102,7 @@ input.signUp{
 		margin-bottom: 20px;
 	}
 
-  .btn {
+  .clickMe {
   	margin-top: 20px;
     border-radius: 0px!important;
     color: $myWhite;
