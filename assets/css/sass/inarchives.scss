@@ -77,8 +77,8 @@ input.signUp{
 
 // THUMBNAILS
 .attachment-post-thumb {
-	max-width: 100%!important;
-	height: auto!important;
+	max-width: 100%;
+	height: auto;
 }
 
 // MAIN CONTENT
@@ -121,14 +121,17 @@ input.signUp{
 }
 
 // MQ'S
-/* Small Devices, Tablets */
 	@media only screen and (min-width : 768px) {
 		.main {
 			.title p {
 				font-size: 18px;
 				// remain on one line
-				font-size: 1.5vw;
+				font-size: 1vw;
 			}
 		}
+	.attachment-post-thumb {
+		max-height: 10vw;
+		width: auto;
+	}
 
   }

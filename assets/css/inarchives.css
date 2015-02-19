@@ -65,8 +65,8 @@ input.signUp {
   border: solid 2px #d3d3d3 !important; }
 
 .attachment-post-thumb {
-  max-width: 100% !important;
-  height: auto !important; }
+  max-width: 100%;
+  height: auto; }
 
 .main {
   padding: 30px 0px; }
@@ -95,10 +95,13 @@ input.signUp {
       background: #fff;
       color: #1a1a1a; }
 
-/* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
   .main .title p {
     font-size: 18px;
-    font-size: 1.5vw; } }
+    font-size: 1vw; }
+
+  .attachment-post-thumb {
+    max-height: 10vw;
+    width: auto; } }
 
 /*# sourceMappingURL=inarchives.css.map */
