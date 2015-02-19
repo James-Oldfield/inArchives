@@ -95,4 +95,10 @@ input.signUp {
       background: #fff;
       color: #1a1a1a; }
 
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  .main .title p {
+    font-size: 18px;
+    font-size: 1.5vw; } }
+
 /*# sourceMappingURL=inarchives.css.map */
