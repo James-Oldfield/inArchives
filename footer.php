@@ -1,13 +1,11 @@
-<div class="text-center social-icons col-lg-12">
-    
-    <a href="https://www.facebook.com/smiths.magazine" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/fb.svg" width="40px"></a>
-    <a href="https://twitter.com/SmithsMagazine" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/twitter.svg" width="40px"></a>
-    <a href="http://instagram.com/smithsmagazine" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/insta.svg" width="40px"></a>
-    <a href="http://smithsmagazinegsu.tumblr.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tumblr.svg" width="40px"></a>
-    
+<div class="text-center social-icons col-lg-12" id="bottom" name="bottom">
+	<h3>sign up for an email reminder:</h3>
+  <input type="text" id="signUp" onfocus="this.placeholder = ''" placeholder = "ENTER EMAIL" />
+  <p class="signUp"><a id="find" class="btn" href="#">SIGN UP</a></p>
 </div>
 
-<script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/countdown.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/b.js"></script>
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/inarchives.min.js"></script>
 
 </body>

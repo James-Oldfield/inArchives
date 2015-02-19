@@ -9,6 +9,8 @@
  ( function( window, undefined ) {
 	'use strict';
 
+	smoothScroll.init();
+
 	var counter = countdown(  new Date(2015, 2, 10) ).toString();
 	document.getElementById('countdown').innerHTML = counter;
 
