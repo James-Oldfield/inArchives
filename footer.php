@@ -1,7 +1,6 @@
 <div class="text-center social-icons col-lg-12" id="bottom" name="bottom">
 	<h3>sign up for an email reminder:</h3>
-  <input type="text" id="signUp" onfocus="this.placeholder = ''" placeholder = "ENTER EMAIL" />
-  <p class="signUp"><a id="find" class="btn" href="#">SIGN UP</a></p>
+  <?php if( function_exists( 'ninja_forms_display_form' ) ){ ninja_forms_display_form( 2 ); } ?>
 </div>
 
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>

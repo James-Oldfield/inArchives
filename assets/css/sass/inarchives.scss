@@ -29,7 +29,7 @@ body {
 
 }
 // INPUT
-input#signUp{
+input.signUp{
 	color: $myBlack;
 	text-align: center!important;
 	font-size: 12px!important;
@@ -68,7 +68,8 @@ input#signUp{
   .btn {
   	margin-top: 20px;
     border-radius: 0px!important;
-    color: #fff;
+    color: $myWhite;
+    background: $myBlack;
     border: solid 1px #fff;
     font-size: 14px;
     text-transform: uppercase;
