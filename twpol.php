@@ -1,3 +1,8 @@
+<?php
+/*
+Template Name: twpol template
+*/ ?>
+
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -23,14 +28,21 @@
         
         <?php wp_head()?>
     </head>
-<body>
+<body class="twpolBody">
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-<div class="header text-center">
-	<h2><a href="/">THE WORST PART OF LIFE</a></h2>
-	<h1 id="countdown"></h1>
-	<h3>Send us your photos here: <a href="mailto:theworstpartoflife@gmail.com">THEWORSTPARTOFLIFE@GMAIL.COM</a></h3>
-    <h3 class="remind"><a data-scroll href="#bottom">REMIND ME VIA EMAIL</a></h3>
+
+<div class="twpol text-center">
+	<div class="twpolMain">
+	  <h1>test</h1>
+	</div>
 </div>
+
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/b.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/inarchives.min.js"></script>
+
+</body>
+</html>
+

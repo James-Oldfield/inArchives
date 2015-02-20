@@ -136,6 +136,19 @@ input.signUp{
   }
 }
 
+// TWPOL PAGE
+.twpol {
+	position: absolute;
+	background: url(../../images/girlBackground.jpg) top;
+	background-size: auto 100%;
+	height: 100%;
+	width: 100%;
+}
+.twpolBody {
+	min-height: 100%;
+	margin: 0px;
+}
+
 // MQ'S
 	@media only screen and (min-width : 768px) {
 		.header {
@@ -162,4 +175,17 @@ input.signUp{
 		width: auto;
 	}
 
+	// TWPOL
+	.twpolMain {
+		border: solid 3px $myBlack;
+		margin: 100px;
+	}
+
   }
+
+	@media only screen and (min-width : 992px) {
+		// TWPOL
+		.twpol {
+			background-size: 100% auto;
+		}
+	}
