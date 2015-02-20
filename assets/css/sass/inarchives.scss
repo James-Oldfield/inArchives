@@ -110,10 +110,9 @@ input.signUp{
 }
 
 // FOOTER
-.social-icons {
-	background: $myBlack;
+.socialIcons {
 	color: $myWhite;
-	padding: 50px 0 50px 0;
+	padding: 20px 0 20px 0;
 
 	h3 {
 		margin-bottom: 20px;
@@ -135,21 +134,46 @@ input.signUp{
         color: $myBlack;
     }
   }
+  .bottom {
+  	margin-bottom: 50px;
+  }
+}
+
+.twpolBody {
+		background: url(../../images/girlBackground.jpg) center fixed no-repeat;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	background-size: cover;
 }
 
 // TWPOL PAGE
 .twpol {
 	height: 135%!important;
 	position: absolute;
-	background: url(../../images/girlBackground.jpg) center fixed no-repeat;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	background-size: cover;
 	height: 100%;
 	width: 100%;
+
+	.logo {
+		margin-top: 50px;
+	}
 }
 .twpolMain {
+	margin-bottom: 100px;
+	.details {
+		margin-top: 50px;
+		h2 a{
+			color: $myWhite;
+			padding: 5px;
+
+			&:hover {
+				text-decoration: none;
+				color: $myBlack;
+				background: $myWhite;
+			}
+		}
+	}
+
 	h1 {
 		padding-bottom: 50px;
 	}
@@ -201,6 +225,9 @@ input.signUp{
 
 		.twpol{
 			padding: 100px;
+			.logo {
+				margin-top: 0px;
+			}
 		}
 		.twpolMain {
 			background: rgba( 255, 255, 255, .5 );
@@ -208,6 +235,17 @@ input.signUp{
 			border: solid 3px $myBlack;
 			width: 100%;
 			display: inline-block;
+
+			.details {
+				h2 a{
+					color: $myBlack;
+
+					&:hover {
+						color: $myWhite;
+						background: $myBlack;
+					}
+				}
+			}
 		}
 
 		.attachment-post-thumb {

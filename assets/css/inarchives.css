@@ -89,13 +89,12 @@ input.signUp {
     margin: 15px 0 !important;
     color: #1a1a1a; }
 
-.social-icons {
-  background: #1a1a1a;
+.socialIcons {
   color: #fff;
-  padding: 50px 0 50px 0; }
-  .social-icons h3 {
+  padding: 20px 0 20px 0; }
+  .socialIcons h3 {
     margin-bottom: 20px; }
-  .social-icons .clickMe {
+  .socialIcons .clickMe {
     margin-top: 20px;
     border-radius: 0px !important;
     color: #fff;
@@ -105,36 +104,53 @@ input.signUp {
     text-transform: uppercase;
     padding: 14px 24px;
     transition: background-color 0.25s ease; }
-    .social-icons .clickMe:hover {
+    .socialIcons .clickMe:hover {
       background: #fff;
       color: #1a1a1a; }
+  .socialIcons .bottom {
+    margin-bottom: 50px; }
 
-.twpol {
-  height: 135% !important;
-  position: absolute;
+.twpolBody {
   background: url(../../images/girlBackground.jpg) center fixed no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover; }
+
+.twpol {
+  height: 135% !important;
+  position: absolute;
   height: 100%;
   width: 100%; }
+  .twpol .logo {
+    margin-top: 50px; }
 
-.twpolMain h1 {
-  padding-bottom: 50px; }
-.twpolMain .videoWrapper {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 25px; }
-.twpolMain .videoWrapper iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; }
-.twpolMain .albumWrapper img {
-  max-width: 100%;
-  height: auto; }
+.twpolMain {
+  margin-bottom: 100px; }
+  .twpolMain .details {
+    margin-top: 50px; }
+    .twpolMain .details h2 a {
+      color: #fff;
+      padding: 5px; }
+      .twpolMain .details h2 a:hover {
+        text-decoration: none;
+        color: #1a1a1a;
+        background: #fff; }
+  .twpolMain h1 {
+    padding-bottom: 50px; }
+  .twpolMain .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 25px; }
+  .twpolMain .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  .twpolMain .albumWrapper img {
+    max-width: 100%;
+    height: auto; }
 
 .twpolBody {
   min-height: 100%;
@@ -154,6 +170,8 @@ input.signUp {
 
   .twpol {
     padding: 100px; }
+    .twpol .logo {
+      margin-top: 0px; }
 
   .twpolMain {
     background: rgba(255, 255, 255, 0.5);
@@ -161,6 +179,11 @@ input.signUp {
     border: solid 3px #1a1a1a;
     width: 100%;
     display: inline-block; }
+    .twpolMain .details h2 a {
+      color: #1a1a1a; }
+      .twpolMain .details h2 a:hover {
+        color: #fff;
+        background: #1a1a1a; }
 
   .attachment-post-thumb {
     max-height: 10vw;
