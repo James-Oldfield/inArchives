@@ -10,6 +10,7 @@
 
 $myBlack: #1a1a1a;
 $myWhite: #fff;
+$myGrey: rgba(206, 206, 206, 0.75);
 
 ::selection{
     color: $myWhite;
@@ -138,12 +139,39 @@ input.signUp{
 
 // TWPOL PAGE
 .twpol {
+	height: 120%!important;
 	position: absolute;
-	background: url(../../images/girlBackground.jpg) top;
-	background-size: auto 100%;
+	background: url(../../images/girlBackground.jpg) center fixed no-repeat;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 }
+.twpolMain {
+	h1 {
+		padding-bottom: 50px;
+	}
+
+	.videoWrapper {
+		position: relative;
+		padding-bottom: 56.25%;
+		padding-top: 25px;
+	}
+	.videoWrapper iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+	.albumWrapper img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
 .twpolBody {
 	min-height: 100%;
 	margin: 0px;
@@ -175,10 +203,15 @@ input.signUp{
 		width: auto;
 	}
 
-	// TWPOL
+	.twpol{
+		padding: 100px;
+	}
 	.twpolMain {
+		background: rgba( 255, 255, 255, .5 );
+		padding: 50px;
 		border: solid 3px $myBlack;
-		margin: 100px;
+		width: 100%;
+		display: inline-block;
 	}
 
   }

@@ -110,11 +110,31 @@ input.signUp {
       color: #1a1a1a; }
 
 .twpol {
+  height: 120% !important;
   position: absolute;
-  background: url(../../images/girlBackground.jpg) top;
-  background-size: auto 100%;
+  background: url(../../images/girlBackground.jpg) center fixed no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
   height: 100%;
   width: 100%; }
+
+.twpolMain h1 {
+  padding-bottom: 50px; }
+.twpolMain .videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px; }
+.twpolMain .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+.twpolMain .albumWrapper img {
+  max-width: 100%;
+  height: auto; }
 
 .twpolBody {
   min-height: 100%;
@@ -136,9 +156,15 @@ input.signUp {
     max-height: 10vw;
     width: auto; }
 
+  .twpol {
+    padding: 100px; }
+
   .twpolMain {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 50px;
     border: solid 3px #1a1a1a;
-    margin: 100px; } }
+    width: 100%;
+    display: inline-block; } }
 @media only screen and (min-width: 992px) {
   .twpol {
     background-size: 100% auto; } }

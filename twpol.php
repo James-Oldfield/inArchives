@@ -35,9 +35,21 @@ Template Name: twpol template
 
 <div class="twpol text-center">
 	<div class="twpolMain">
-	  <h1>test</h1>
-	</div>
-</div>
+        <div class="col-xs-12">
+            <img src="<?php bloginfo( 'template_url' );?>/images/logo.png" alt="In Archives logo" width="250px" height="auto">
+            <h1>THE WORST PART OF LIFE</h1>
+        </div>
+        <div class="col-xs-12 col-md-7">
+            <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rp4S-vtUz34" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="col-xs-12 col-md-5">
+            <div class="albumWrapper">
+                <img src="<?php bloginfo( 'template_url' );?>/images/albumArt.jpg" alt="Girl album artwork" width="auto%" height="100%">
+            </div>
+    	</div>
+    </div>
 
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/b.js"></script>
