@@ -39,16 +39,20 @@ Template Name: twpol template
             <img src="<?php bloginfo( 'template_url' );?>/images/logo.png" alt="In Archives logo" width="250px" height="auto">
             <h1>THE WORST PART OF LIFE</h1>
         </div>
-        <div class="col-xs-12 col-md-7">
+        <div class="col-xs-12 col-sm-7">
             <div class="videoWrapper">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/rp4S-vtUz34" frameborder="0" allowfullscreen></iframe>
             </div>
         </div>
-        <div class="col-xs-12 col-md-5">
+        <div class="col-xs-12 col-sm-5">
             <div class="albumWrapper">
                 <img src="<?php bloginfo( 'template_url' );?>/images/albumArt.jpg" alt="Girl album artwork" width="auto%" height="100%">
             </div>
     	</div>
+        <div class="col-xs-12">
+            <h2><a href="/">Stream "The worst part of life" EP for free</a></h2>
+            <h2><a href="/">Purchase merch and bundles</a></h2>
+        </div>
     </div>
 
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>

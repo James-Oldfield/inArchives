@@ -139,7 +139,7 @@ input.signUp{
 
 // TWPOL PAGE
 .twpol {
-	height: 120%!important;
+	height: 135%!important;
 	position: absolute;
 	background: url(../../images/girlBackground.jpg) center fixed no-repeat;
 	  -webkit-background-size: cover;
@@ -198,21 +198,22 @@ input.signUp{
 				font-size: 1vw;
 			}
 		}
-	.attachment-post-thumb {
-		max-height: 10vw;
-		width: auto;
-	}
 
-	.twpol{
-		padding: 100px;
-	}
-	.twpolMain {
-		background: rgba( 255, 255, 255, .5 );
-		padding: 50px;
-		border: solid 3px $myBlack;
-		width: 100%;
-		display: inline-block;
-	}
+		.twpol{
+			padding: 100px;
+		}
+		.twpolMain {
+			background: rgba( 255, 255, 255, .5 );
+			padding: 50px;
+			border: solid 3px $myBlack;
+			width: 100%;
+			display: inline-block;
+		}
+
+		.attachment-post-thumb {
+			max-height: 10vw;
+			width: auto;
+		}
 
   }
 
@@ -220,5 +221,13 @@ input.signUp{
 		// TWPOL
 		.twpol {
 			background-size: 100% auto;
+		}
+	}
+
+	// screens > 15 inch
+	@media only screen and (min-width : 1479px) {
+		.attachment-post-thumb {
+			max-height: 5vw;
+			width: auto;
 		}
 	}

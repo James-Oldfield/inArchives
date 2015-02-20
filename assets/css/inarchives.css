@@ -110,7 +110,7 @@ input.signUp {
       color: #1a1a1a; }
 
 .twpol {
-  height: 120% !important;
+  height: 135% !important;
   position: absolute;
   background: url(../../images/girlBackground.jpg) center fixed no-repeat;
   -webkit-background-size: cover;
@@ -152,10 +152,6 @@ input.signUp {
     font-size: 18px;
     font-size: 1vw; }
 
-  .attachment-post-thumb {
-    max-height: 10vw;
-    width: auto; }
-
   .twpol {
     padding: 100px; }
 
@@ -164,9 +160,17 @@ input.signUp {
     padding: 50px;
     border: solid 3px #1a1a1a;
     width: 100%;
-    display: inline-block; } }
+    display: inline-block; }
+
+  .attachment-post-thumb {
+    max-height: 10vw;
+    width: auto; } }
 @media only screen and (min-width: 992px) {
   .twpol {
     background-size: 100% auto; } }
+@media only screen and (min-width: 1479px) {
+  .attachment-post-thumb {
+    max-height: 5vw;
+    width: auto; } }
 
 /*# sourceMappingURL=inarchives.css.map */
