@@ -36,7 +36,7 @@ Template Name: twpol template
 <div class="twpol text-center">
 	<div class="twpolMain">
         <div class="col-xs-12">
-            <img class="logo" src="<?php bloginfo( 'template_url' );?>/images/logo.png" alt="In Archives logo" width="250px" height="auto">
+            <img class="logo" src="<?php bloginfo( 'template_url' );?>/images/logo.png" alt="In Archives logo" width="150px" height="auto">
             <h1>THE WORST PART OF LIFE</h1>
         </div>
         <div class="col-xs-12 col-sm-7">
@@ -52,15 +52,15 @@ Template Name: twpol template
         <div class="col-xs-12 details">
             <h2><a href="/">Stream "The worst part of life" EP for free</a></h2>
             <div class="socialIcons">
-                <img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="50px" height="auto">
-                <img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="50px" height="auto">
+                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="auto"></a>
+                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="auto"></a>
             </div>
             <h2><a href="/">Purchase merch and bundles</a></h2>
             <div class="socialIcons bottom">
-                <img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="50px" height="auto">
-                <img src="<?php bloginfo( 'template_url' );?>/images/insta.png" alt="instagram logo" width="50px" height="auto">
-                <img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="50px" height="auto">
-                <img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="50px" height="auto">
+                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
+                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/insta.png" alt="instagram logo" width="35px" height="auto"></a>
+                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
+                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
             </div>
         </div>
     </div>

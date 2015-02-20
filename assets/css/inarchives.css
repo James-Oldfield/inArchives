@@ -127,16 +127,22 @@ input.signUp {
 .twpolMain {
   margin-bottom: 100px; }
   .twpolMain .details {
-    margin-top: 50px; }
-    .twpolMain .details h2 a {
-      color: #fff;
-      padding: 5px; }
-      .twpolMain .details h2 a:hover {
-        text-decoration: none;
-        color: #1a1a1a;
-        background: #fff; }
-    .twpolMain .details .socialIcons {
-      margin: 25px auto; }
+    margin-top: 25px; }
+    .twpolMain .details h2 {
+      margin: 0px; }
+      .twpolMain .details h2 a {
+        font-size: 18px;
+        color: #fff;
+        padding: 2px;
+        margin: 5px auto; }
+        .twpolMain .details h2 a:hover {
+          text-decoration: none;
+          color: #1a1a1a;
+          background: #fff; }
+    .twpolMain .details .socialIcons img {
+      opacity: transition opacity ease 0.2s; }
+      .twpolMain .details .socialIcons img:hover {
+        opacity: 0.5; }
   .twpolMain h1 {
     padding-bottom: 50px; }
   .twpolMain .videoWrapper {
@@ -150,7 +156,8 @@ input.signUp {
     width: 100%;
     height: 100%; }
   .twpolMain .albumWrapper img {
-    max-width: 100%;
+    margin-top: 50px;
+    width: 88%;
     height: auto; }
 
 .twpolBody {
@@ -158,6 +165,9 @@ input.signUp {
   margin: 0px; }
 
 @media only screen and (min-width: 768px) {
+  .twpolBody, .twpol {
+    position: fixed; }
+
   .header {
     background-size: 100% auto; }
     .header h3 a {
@@ -170,29 +180,47 @@ input.signUp {
     font-size: 1vw; }
 
   .twpol {
-    padding: 100px;
-    padding-bottom: 75%; }
+    padding: 50px 100px; }
     .twpol .logo {
       margin-top: 0px; }
 
   .twpolMain {
     background: rgba(255, 255, 255, 0.5);
-    padding: 50px;
+    padding: 0px;
     border: solid 3px #1a1a1a;
     width: 100%;
     display: inline-block; }
-    .twpolMain .details h2 a {
-      color: #1a1a1a; }
-      .twpolMain .details h2 a:hover {
-        color: #fff;
-        background: #1a1a1a; }
+    .twpolMain h1 {
+      font-size: 28px;
+      padding-bottom: 20px; }
+    .twpolMain .staticHeight {
+      height: 250px !important; }
+      .twpolMain .staticHeight .albumWrapper, .twpolMain .staticHeight .albumWrapper img {
+        height: 100% !important;
+        width: auto; }
+    .twpolMain .albumWrapper img {
+      margin: 0px; }
+    .twpolMain .details {
+      margin-top: 0px; }
+      .twpolMain .details h2 a {
+        color: #fff; }
+        .twpolMain .details h2 a:hover {
+          color: #fff;
+          background: #1a1a1a; }
 
   .attachment-post-thumb {
     max-height: 10vw;
     width: auto; } }
 @media only screen and (min-width: 992px) {
   .twpol {
-    background-size: 100% auto; } }
+    background-size: 100% auto; }
+
+  .twpolMain {
+    padding: 20px 100px; } }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  .twpolMain {
+    padding: 20px 200px; } }
 @media only screen and (min-width: 1479px) {
   .attachment-post-thumb {
     max-height: 5vw;

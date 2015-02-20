@@ -159,19 +159,28 @@ input.signUp{
 .twpolMain {
 	margin-bottom: 100px;
 	.details {
-		margin-top: 50px;
-		h2 a{
-			color: $myWhite;
-			padding: 5px;
+		margin-top: 25px;
+		h2{ 
+			margin: 0px;
+			a{
+				font-size: 18px;
+				color: $myWhite;
+				padding: 2px;
+				margin: 5px auto;
 
-			&:hover {
-				text-decoration: none;
-				color: $myBlack;
-				background: $myWhite;
+				&:hover {
+					text-decoration: none;
+					color: $myBlack;
+					background: $myWhite;
+				}
 			}
-		}
-		.socialIcons {
-			margin: 25px auto;
+		} 
+
+		.socialIcons img{
+			opacity: transition opacity ease 0.2s;
+			&:hover {
+				opacity: 0.5;
+			}
 		}
 	}
 
@@ -192,7 +201,8 @@ input.signUp{
 		height: 100%;
 	}
 	.albumWrapper img {
-		max-width: 100%;
+		margin-top: 50px;
+		width: 88%;
 		height: auto;
 	}
 }
@@ -204,6 +214,9 @@ input.signUp{
 
 // MQ'S
 	@media only screen and (min-width : 768px) {
+		.twpolBody, .twpol {
+			position: fixed;
+		}
 		.header {
 			background-size: 100% auto;
 
@@ -225,22 +238,40 @@ input.signUp{
 		}
 
 		.twpol{
-			padding: 100px;
-			padding-bottom: 75%;
+			padding: 50px 100px;
 			.logo {
 				margin-top: 0px;
 			}
 		}
 		.twpolMain {
 			background: rgba( 255, 255, 255, .5 );
-			padding: 50px;
+			padding: 0px;
 			border: solid 3px $myBlack;
 			width: 100%;
 			display: inline-block;
 
+			h1{
+				font-size: 28px;
+				padding-bottom: 20px;
+			}
+
+			.staticHeight {
+				height: 250px!important;
+
+				.albumWrapper, .albumWrapper img{
+					height: 100%!important;
+					width: auto;
+				}
+			}
+
+			.albumWrapper img {
+				margin: 0px;
+			}
+
 			.details {
+				margin-top: 0px;
 				h2 a{
-					color: $myBlack;
+					color: $myWhite;
 
 					&:hover {
 						color: $myWhite;
@@ -262,7 +293,17 @@ input.signUp{
 		.twpol {
 			background-size: 100% auto;
 		}
+		.twpolMain {
+			padding: 20px 100px;
+		}
 	}
+
+	  /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+			.twpolMain {
+				padding: 20px 200px;
+			}
+    }
 
 	// screens > 15 inch
 	@media only screen and (min-width : 1479px) {
