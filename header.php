@@ -32,7 +32,7 @@
 	<h2><a href="/">THE WORST PART OF LIFE</a></h2>
 	<h1 id="countdown"></h1>
 	<h3>Send us your photos here: <a href="mailto:theworstpartoflife@gmail.com">THEWORSTPARTOFLIFE@GMAIL.COM</a></h3>
-    <h3><a data-scroll href="#bottom">REMIND ME VIA EMAIL</a></h3>
+    <h3 class="remind"><a data-scroll href="#bottom">REMIND ME VIA EMAIL</a></h3>
 </div>
     
 </div>

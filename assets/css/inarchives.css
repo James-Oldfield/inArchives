@@ -34,18 +34,31 @@ body {
 .header {
   border-bottom: solid 3px #1a1a1a;
   background: url(../../images/girlBackground.jpg) top;
-  background-size: 100% auto;
+  background-size: auto 100%;
   padding: 30px 20px !important; }
-  .header a {
-    text-decoration: none;
-    color: #1a1a1a; }
   .header h2 {
     font-family: 'Mohave Italics', sans-serif;
     letter-spacing: 10px; }
+    .header h2 a {
+      color: #1a1a1a;
+      text-decoration: none; }
+  .header .remind {
+    margin-top: 50px; }
+    .header .remind a {
+      border: solid 2px #fff;
+      background: black;
+      /* fallback dec */
+      background: rgba(0, 0, 0, 0.25);
+      color: #fff;
+      padding: 20px;
+      font-size: 16px; }
   .header h3 {
+    color: #fff;
     font-family: 'Mohave Italics', sans-serif;
     letter-spacing: 5px; }
     .header h3 a {
+      text-decoration: none;
+      color: #fff;
       padding: 0 5px;
       transition: background 0.1s ease;
       transition: color 0.1s ease; }
@@ -53,6 +66,7 @@ body {
         background: #1a1a1a;
         color: #fff; }
   .header #countdown {
+    color: #fff;
     font-size: 50px;
     font-family: "Mohave-Bold", sans-serif !important; }
 
@@ -96,6 +110,13 @@ input.signUp {
       color: #1a1a1a; }
 
 @media only screen and (min-width: 768px) {
+  .header {
+    background-size: 100% auto; }
+    .header h3 a {
+      color: #1a1a1a; }
+    .header #countdown {
+      color: #1a1a1a; }
+
   .main .title p {
     font-size: 18px;
     font-size: 1vw; }
