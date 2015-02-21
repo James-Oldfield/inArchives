@@ -159,7 +159,7 @@ input.signUp{
 .twpolMain {
 	margin-bottom: 100px;
 	.details {
-		margin-top: 25px;
+		margin: 25px auto;
 		h2{ 
 			margin: 0px;
 			a{
@@ -203,7 +203,7 @@ input.signUp{
 	.albumWrapper img {
 		margin-top: 50px;
 		width: 88%;
-		height: auto;
+		height: 88%;
 	}
 }
 
@@ -269,7 +269,7 @@ input.signUp{
 			}
 
 			.details {
-				margin-top: 0px;
+				margin: 25px 0;
 				h2 a{
 					color: $myWhite;
 
@@ -277,6 +277,10 @@ input.signUp{
 						color: $myWhite;
 						background: $myBlack;
 					}
+				}
+
+				.socialIcons {
+					margin: 10px 0;
 				}
 			}
 		}
@@ -310,5 +314,8 @@ input.signUp{
 		.attachment-post-thumb {
 			max-height: 5vw;
 			width: auto;
+		}
+		.twpolBody, .twpol {
+			position: inherit;
 		}
 	}

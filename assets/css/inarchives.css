@@ -127,7 +127,7 @@ input.signUp {
 .twpolMain {
   margin-bottom: 100px; }
   .twpolMain .details {
-    margin-top: 25px; }
+    margin: 25px auto; }
     .twpolMain .details h2 {
       margin: 0px; }
       .twpolMain .details h2 a {
@@ -158,7 +158,7 @@ input.signUp {
   .twpolMain .albumWrapper img {
     margin-top: 50px;
     width: 88%;
-    height: auto; }
+    height: 88%; }
 
 .twpolBody {
   min-height: 100%;
@@ -201,12 +201,14 @@ input.signUp {
     .twpolMain .albumWrapper img {
       margin: 0px; }
     .twpolMain .details {
-      margin-top: 0px; }
+      margin: 25px 0; }
       .twpolMain .details h2 a {
         color: #fff; }
         .twpolMain .details h2 a:hover {
           color: #fff;
           background: #1a1a1a; }
+      .twpolMain .details .socialIcons {
+        margin: 10px 0; }
 
   .attachment-post-thumb {
     max-height: 10vw;
@@ -224,6 +226,9 @@ input.signUp {
 @media only screen and (min-width: 1479px) {
   .attachment-post-thumb {
     max-height: 5vw;
-    width: auto; } }
+    width: auto; }
+
+  .twpolBody, .twpol {
+    position: inherit; } }
 
 /*# sourceMappingURL=inarchives.css.map */
