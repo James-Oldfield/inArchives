@@ -203,6 +203,7 @@ input.signUp {
     .twpolMain .details {
       margin: 25px 0; }
       .twpolMain .details h2 a {
+        margin-top: 0px;
         color: #fff; }
         .twpolMain .details h2 a:hover {
           color: #fff;
