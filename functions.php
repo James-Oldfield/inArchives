@@ -8,8 +8,6 @@
   // HIDE ADMIN BAR
   add_filter('show_admin_bar', '__return_false');
 
-  add_filter( 'post_thumbnail_html', 'my_post_image_html', 10, 3 );
-
 /**
  * inArchives functions and definitions
  *
@@ -68,8 +66,3 @@ define( 'WPTHEME_VERSION', '0.1.0' );
 	echo apply_filters( 'wptheme_humans', $humans );
  }
  add_action( 'wp_head', 'wptheme_header_meta' );
-
-	function my_post_image_html( $html, $post_id, $post_image_id ) {
-		$html = '<a href="' . get_permalink( $post_id ) . '" title="' . esc_attr( get_the_title( $post_id ) ) . '">' . $html . '</a>';
-		return $html;
-	}

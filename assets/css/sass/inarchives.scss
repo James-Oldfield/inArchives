@@ -93,7 +93,7 @@ input.signUp{
 }
 
 // THUMBNAILS
-.attachment-post-thumb {
+.wp-post-image {
 	max-width: 100%;
 	height: auto;
 }
@@ -288,7 +288,7 @@ input.signUp{
 			}
 		}
 
-		.attachment-post-thumb {
+		.wp-post-image {
 			max-height: 10vw;
 			width: auto;
 		}
@@ -314,7 +314,7 @@ input.signUp{
 
 	// screens > 15 inch
 	@media only screen and (min-width : 1479px) {
-		.attachment-post-thumb {
+		.wp-post-image {
 			max-height: 5vw;
 			width: auto;
 		}

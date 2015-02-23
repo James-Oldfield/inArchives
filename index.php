@@ -9,9 +9,12 @@ if ( have_posts() ) :
         
         <div class="col-xs-12 col-sm-4 col-md-3">
 					<div class="post-thumb">
-            <?php the_post_thumbnail('post-thumb'); ?>
+						<a href="<?php echo wp_get_attachment_url( get_post_thumbnail_id( $post->ID ) ) ?>" rel="lb">
+            <?php the_post_thumbnail('post-thumb' , array( 'rel' => 'lb' )); ?>
+							
+						</a>
 					</div>
-            <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><span class="title"><p><?php the_title(); ?></p></span></a>
+          <span class="title"><p><?php the_title(); ?></p></span>
         </div>    
     
 	<?php endwhile;

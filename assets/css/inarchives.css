@@ -78,7 +78,7 @@ input.signUp {
   width: 300px;
   border: solid 2px #d3d3d3 !important; }
 
-.attachment-post-thumb {
+.wp-post-image {
   max-width: 100%;
   height: auto; }
 
@@ -211,7 +211,7 @@ input.signUp {
       .twpolMain .details .socialIcons {
         margin: 10px 0; }
 
-  .attachment-post-thumb {
+  .wp-post-image {
     max-height: 10vw;
     width: auto; } }
 @media only screen and (min-width: 992px) {
@@ -225,7 +225,7 @@ input.signUp {
   .twpolMain {
     padding: 20px 200px; } }
 @media only screen and (min-width: 1479px) {
-  .attachment-post-thumb {
+  .wp-post-image {
     max-height: 5vw;
     width: auto; }
 
