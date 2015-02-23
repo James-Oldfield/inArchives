@@ -209,7 +209,7 @@ input.signUp {
           color: #fff;
           background: #1a1a1a; }
       .twpolMain .details .socialIcons {
-        margin: 10px 0; }
+        margin: 5px 0; }
 
   .wp-post-image {
     max-height: 10vw;
@@ -219,7 +219,7 @@ input.signUp {
     background-size: 100% auto; }
 
   .twpolMain {
-    padding: 20px 100px; } }
+    padding: 20px 200px 5px 200px !important; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .twpolMain {
