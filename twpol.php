@@ -51,15 +51,13 @@ Template Name: twpol template
     	</div>
         <div class="col-xs-12 details">
             <h2><a href="/">Stream "The worst part of life" EP for free</a></h2>
-            <div class="socialIcons">
+            <div class="socialIcons bottom">
                 <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="auto"></a>
                 <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="auto"></a>
-            </div>
-            <h2><a href="/">Purchase merch and bundles</a></h2>
-            <div class="socialIcons bottom">
                 <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
                 <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
             </div>
+            <h2><a href="/">Purchase merch and bundles</a></h2>
         </div>
     </div>
 </div>
