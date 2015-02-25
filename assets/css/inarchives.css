@@ -249,15 +249,21 @@ input.signUp {
     padding: 0px; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
+  .twpol {
+    padding: 50px 250px; }
+
   .twpolMain .details {
-    padding: 20px 150px; }
+    padding: 20px 50px; }
 
   .middleWrapper {
-    padding: 20px 150px; } }
+    padding: 20px 50px; } }
 @media only screen and (min-width: 1479px) {
   .wp-post-image {
     max-height: 5vw;
     width: auto; }
+
+  .twpolMain .details {
+    padding: 5%; }
 
   .twpolBody, .twpol {
     position: inherit; } }
