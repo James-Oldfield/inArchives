@@ -159,12 +159,15 @@ input.signUp{
 .twpolMain {
 	margin-bottom: 100px;
 	.details {
+		background: rgba(255,255,255,0.75);
+		padding: 10px;
 		margin: 25px auto;
 		h2{ 
+			line-height: 0.75em;
 			margin: 0px;
 			a{
 				font-size: 18px;
-				color: $myWhite;
+				color: $myBlack;
 				padding: 2px;
 				margin: 5px auto;
 
@@ -176,12 +179,36 @@ input.signUp{
 			}
 		} 
 
-		.socialIcons img{
-			opacity: transition opacity ease 0.2s;
-			&:hover {
-				opacity: 0.5;
+		.socialIcons {
+			margin: 10px auto 35px auto;
+
+			img{
+				opacity: transition opacity ease 0.2s;
+				&:hover {
+					opacity: 0.5;
+				}
 			}
 		}
+
+		.buyMerch {
+	  	margin: 20px auto;
+
+			a{
+		    border-radius: 0px!important;
+		    color: $myWhite;
+		    background: rgba(0, 0, 0, 0.25);
+		    border: solid 1px $myWhite;
+		    font-size: 14px;
+		    text-transform: uppercase;
+		    padding: 14px 24px;
+		    transition: background-color 0.25s ease;
+
+		    &:hover{
+		        background: $myBlack; 
+		        color: $myWhite;
+		    }
+			}
+	  }
 	}
 
 	h1 {
@@ -213,6 +240,7 @@ input.signUp{
 }
 
 // MQ'S
+
 	@media only screen and (min-width : 768px) {
 		.twpolBody, .twpol {
 			position: fixed;
@@ -250,9 +278,15 @@ input.signUp{
 			width: 100%;
 			display: inline-block;
 
+			.twpolHeader {
+				background: rgba(255, 255, 255, 0.75);
+				padding: 10px;
+				margin-bottom: 25px;
+			}
+
 			h1{
-				font-size: 28px;
-				padding-bottom: 20px;
+				font-size: 30px;
+				padding-bottom: 0px;
 			}
 
 			.staticHeight {
@@ -269,11 +303,12 @@ input.signUp{
 			}
 
 			.details {
-				margin: 25px 0;
+				margin: 25px 0 0 0;
+				padding: 10px 0px;
 				h2 {
 					a{
 						margin-top: 0px;
-						color: $myWhite;
+						color: $myBlack;
 
 						&:hover {
 							color: $myWhite;
@@ -297,18 +332,29 @@ input.signUp{
 
 	@media only screen and (min-width : 992px) {
 		// TWPOL
+		.twpolMain {
+			.details {
+				padding: 15px 100px;
+			}
+		}
 		.twpol {
 			background-size: 100% auto;
 		}
-		.twpolMain {
-			padding: 20px 200px 5px 200px!important;
+		.middleWrapper {
+			padding: 0px;
 		}
 	}
 
 	  /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
-			.twpolMain {
-				padding: 20px 200px;
+    	.twpolMain {
+				.details {
+					padding: 20px 150px;
+				}
+			}
+
+			.middleWrapper {
+				padding: 20px 150px;
 			}
     }
 

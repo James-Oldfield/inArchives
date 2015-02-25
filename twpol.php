@@ -35,30 +35,50 @@ Template Name: twpol template
 
 <div class="twpol text-center">
 	<div class="twpolMain">
-        <div class="col-xs-12">
+        <div class="col-xs-12 twpolHeader">
             <img class="logo" src="<?php bloginfo( 'template_url' );?>/images/logo.png" alt="In Archives logo" width="150px" height="auto">
             <h1>THE WORST PART OF LIFE</h1>
         </div>
-        <div class="col-xs-12 col-sm-7">
-            <div class="videoWrapper">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rp4S-vtUz34" frameborder="0" allowfullscreen></iframe>
+        <div class="middleWrapper">
+            <div class="col-xs-12 col-sm-7">
+                <div class="videoWrapper">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/rp4S-vtUz34" frameborder="0" allowfullscreen></iframe>
+                </div>
             </div>
+            <div class="col-xs-12 col-sm-5">
+                <div class="albumWrapper">
+                    <img src="<?php bloginfo( 'template_url' );?>/images/albumArt.jpg" alt="Girl album artwork" width="auto%" height="100%">
+                </div>
+        	</div>
         </div>
-        <div class="col-xs-12 col-sm-5">
-            <div class="albumWrapper">
-                <img src="<?php bloginfo( 'template_url' );?>/images/albumArt.jpg" alt="Girl album artwork" width="auto%" height="100%">
-            </div>
-    	</div>
+
         <div class="col-xs-12 details">
-            <h2><a href="/">Stream "The worst part of life" EP for free</a></h2>
-            <div class="socialIcons">
-                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="auto"></a>
-                <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="auto"></a>
+            <div class="col-xs-12 col-sm-4">
+                <h2><a href="/">Pre-order EP <br> and merch bundles</a></h2>
+
+                <div class="socialIcons">
+                    <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="auto"></a>
+                </div>
+
             </div>
-            <h2><a href="/">Purchase merch and bundles</a></h2>
-            <div class="socialIcons bottom">
-                <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
-                <a href="http://www.twitter.com/inarchivesuk"><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
+            <div class="col-xs-12 col-sm-4">
+                <h2><a href="/">Stream "The worst part of life" <br> EP for free</a></h2>
+
+                <div class="socialIcons">
+                    <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="auto"></a>
+                    <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="auto"></a>
+                </div>
+
+            </div>            
+            <div class="col-xs-12 col-sm-4">
+                <h2><a href="/">follow us <br> online</a></h2>
+
+                <div class="socialIcons">
+                    <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
+                    <a href="http://www.twitter.com/inarchivesuk"><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
+                    <a href="https://www.tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
+                </div>
+
             </div>
         </div>
     </div>
