@@ -126,22 +126,36 @@ input.signUp {
 
 .twpolMain {
   margin-bottom: 100px; }
+  .twpolMain .twpolHeader {
+    background: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    margin-bottom: 25px; }
+    .twpolMain .twpolHeader h1 {
+      font-family: "Mohave-Bold", sans-serif !important;
+      font-size: 40px;
+      padding: 0px;
+      margin-top: 50px; }
+    .twpolMain .twpolHeader h2 {
+      font-family: 'Mohave Italics', sans-serif;
+      letter-spacing: 10px;
+      margin-bottom: 50px; }
   .twpolMain .details {
     background: rgba(255, 255, 255, 0.75);
     padding: 10px;
     margin: 25px auto; }
+    .twpolMain .details h4.releaseDate {
+      font-family: "Mohave-Bold", sans-serif !important;
+      font-size: 28px;
+      margin-bottom: 35px; }
     .twpolMain .details h2 {
-      line-height: 0.75em;
-      margin: 0px; }
-      .twpolMain .details h2 a {
-        font-size: 18px;
-        color: #1a1a1a;
-        padding: 2px;
-        margin: 5px auto; }
-        .twpolMain .details h2 a:hover {
-          text-decoration: none;
-          color: #1a1a1a;
-          background: #fff; }
+      line-height: 1.25em;
+      margin: 0px;
+      font-size: 16px;
+      color: #1a1a1a;
+      padding: 2px;
+      margin: 5px auto; }
+    .twpolMain .details .text-wrap {
+      padding: 0px; }
     .twpolMain .details .socialIcons {
       margin: 10px auto 35px auto; }
       .twpolMain .details .socialIcons img {
@@ -210,12 +224,17 @@ input.signUp {
     width: 100%;
     display: inline-block; }
     .twpolMain .twpolHeader {
-      background: rgba(255, 255, 255, 0.75);
       padding: 10px;
       margin-bottom: 25px; }
-    .twpolMain h1 {
-      font-size: 30px;
-      padding-bottom: 0px; }
+      .twpolMain .twpolHeader h1 {
+        font-size: 40px;
+        padding: auto;
+        margin: 20px 0; }
+      .twpolMain .twpolHeader h2 {
+        padding: auto;
+        margin: 20px 0;
+        font-family: 'Mohave Italics', sans-serif;
+        letter-spacing: 10px; }
     .twpolMain .staticHeight {
       height: 250px !important; }
       .twpolMain .staticHeight .albumWrapper, .twpolMain .staticHeight .albumWrapper img {
@@ -226,6 +245,9 @@ input.signUp {
     .twpolMain .details {
       margin: 25px 0 0 0;
       padding: 10px 0px; }
+      .twpolMain .details h4.releaseDate {
+        margin-top: 5px;
+        margin-bottom: 0px; }
       .twpolMain .details h2 a {
         margin-top: 0px;
         color: #1a1a1a; }
@@ -240,7 +262,9 @@ input.signUp {
     width: auto; } }
 @media only screen and (min-width: 992px) {
   .twpolMain .details {
-    padding: 15px 100px; }
+    padding: 15px 30px; }
+    .twpolMain .details h2 {
+      font-size: 1.25vw; }
 
   .twpol {
     background-size: 100% auto; }
@@ -253,7 +277,7 @@ input.signUp {
     padding: 50px 250px; }
 
   .twpolMain .details {
-    padding: 20px 50px; }
+    padding: 20px 30px; }
 
   .middleWrapper {
     padding: 20px 50px; } }

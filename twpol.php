@@ -36,8 +36,8 @@ Template Name: twpol template
 <div class="twpol text-center">
 	<div class="twpolMain">
         <div class="col-xs-12 twpolHeader">
-            <img class="logo" src="<?php bloginfo( 'template_url' );?>/images/logo.png" alt="In Archives logo" width="150px" height="auto">
-            <h1>THE WORST PART OF LIFE</h1>
+            <h1>IN ARCHIVES</h1>
+            <h2>THE WORST PART OF LIFE</h2>
         </div>
         <div class="middleWrapper">
             <div class="col-xs-12 col-sm-7">
@@ -53,25 +53,28 @@ Template Name: twpol template
         </div>
 
         <div class="col-xs-12 details">
-            <div class="col-xs-12 col-sm-4">
-                <h2><a href="/">Pre-order EP <br> and merch bundles</a></h2>
+            <div class="text-wrap col-xs-12 col-sm-4">
+                <h2>Pre-order EP <br> and merch bundles</h2>
 
                 <div class="socialIcons">
                     <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="auto"></a>
+                    <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/itunes.png" alt="itunes logo" width="35px" height="auto"></a>
                 </div>
 
             </div>
-            <div class="col-xs-12 col-sm-4">
-                <h2><a href="/">Stream "The worst part of life" <br> EP for free</a></h2>
+            <div class="text-wrap col-xs-12 col-sm-4">
+                <h2>Stream "The worst part of life" <br> EP for free</h2>
 
-                <div class="socialIcons">
+                <!-- <div class="socialIcons">
                     <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="auto"></a>
                     <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="auto"></a>
-                </div>
+                </div> -->
+
+                <h4 class="releaseDate">11/04/15</h4>
 
             </div>            
-            <div class="col-xs-12 col-sm-4">
-                <h2><a href="/">follow us <br> online</a></h2>
+            <div class="text-wrap col-xs-12 col-sm-4">
+                <h2>follow us <br> online</h2>
 
                 <div class="socialIcons">
                     <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>

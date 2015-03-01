@@ -158,26 +158,49 @@ input.signUp{
 }
 .twpolMain {
 	margin-bottom: 100px;
+
+	.twpolHeader {
+		background: rgba(255, 255, 255, 0.75);
+		padding: 20px;
+		margin-bottom: 25px;
+
+		h1 {
+			font-family: 'Mohave-Bold', sans-serif!important;
+			font-size: 40px;
+			padding: 0px;
+			margin-top: 50px;
+		}
+
+		h2 {
+			font-family: 'Mohave Italics', sans-serif;
+			letter-spacing: 10px;
+			margin-bottom: 50px;
+		}
+	}
+
 	.details {
 		background: rgba(255,255,255,0.75);
 		padding: 10px;
 		margin: 25px auto;
-		h2{ 
-			line-height: 0.75em;
-			margin: 0px;
-			a{
-				font-size: 18px;
-				color: $myBlack;
-				padding: 2px;
-				margin: 5px auto;
 
-				&:hover {
-					text-decoration: none;
-					color: $myBlack;
-					background: $myWhite;
-				}
-			}
+		h4.releaseDate {
+			font-family: 'Mohave-Bold', sans-serif!important;
+			font-size: 28px;
+			margin-bottom: 35px;
+		}
+
+		h2{ 
+			line-height: 1.25em;
+			margin: 0px;
+			font-size: 16px;
+			color: $myBlack;
+			padding: 2px;
+			margin: 5px auto;
 		} 
+
+		.text-wrap {
+			padding: 0px;
+		}
 
 		.socialIcons {
 			margin: 10px auto 35px auto;
@@ -279,14 +302,21 @@ input.signUp{
 			display: inline-block;
 
 			.twpolHeader {
-				background: rgba(255, 255, 255, 0.75);
 				padding: 10px;
 				margin-bottom: 25px;
-			}
 
-			h1{
-				font-size: 30px;
-				padding-bottom: 0px;
+				h1 {
+					font-size: 40px;
+					padding: auto;
+					margin: 20px 0;
+				}
+
+				h2 {
+					padding: auto;
+					margin: 20px 0;
+					font-family: 'Mohave Italics', sans-serif;
+					letter-spacing: 10px;
+				}
 			}
 
 			.staticHeight {
@@ -305,6 +335,12 @@ input.signUp{
 			.details {
 				margin: 25px 0 0 0;
 				padding: 10px 0px;
+
+				h4.releaseDate {
+					margin-top: 5px;
+					margin-bottom: 0px;
+				}
+
 				h2 {
 					a{
 						margin-top: 0px;
@@ -334,7 +370,11 @@ input.signUp{
 		// TWPOL
 		.twpolMain {
 			.details {
-				padding: 15px 100px;
+				padding: 15px 30px;
+
+				h2 {
+					font-size: 1.25vw;
+				}
 			}
 		}
 		.twpol {
@@ -352,7 +392,7 @@ input.signUp{
     	}
     	.twpolMain {
 				.details {
-					padding: 20px 50px;
+					padding: 20px 30px;
 				}
 			}
 
