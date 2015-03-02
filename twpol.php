@@ -36,7 +36,7 @@ Template Name: twpol template
 <div class="twpol text-center">
 	<div class="twpolMain">
         <div class="col-xs-12 twpolHeader">
-            <h1>IN ARCHIVES</h1>
+            <h1>INARCHIVES</h1>
             <h2>THE WORST PART OF LIFE</h2>
         </div>
         <div class="middleWrapper">

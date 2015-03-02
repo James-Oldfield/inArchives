@@ -133,6 +133,7 @@ input.signUp {
     .twpolMain .twpolHeader h1 {
       font-family: "Mohave-Bold", sans-serif !important;
       font-size: 40px;
+      letter-spacing: 5px;
       padding: 0px;
       margin-top: 50px; }
     .twpolMain .twpolHeader h2 {
