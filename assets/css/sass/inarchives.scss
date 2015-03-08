@@ -142,12 +142,12 @@ input.signUp{
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
-	background-size: cover;
+		background-size: cover;
 }
 
 // TWPOL PAGE
 .twpol {
-	height: 135%!important;
+	height: 100%!important;
 	position: absolute;
 	height: 100%;
 	width: 100%;
@@ -157,7 +157,7 @@ input.signUp{
 	}
 }
 .twpolMain {
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 
 	.twpolHeader {
 		background: rgba(255, 255, 255, 0.75);
@@ -267,7 +267,8 @@ input.signUp{
 
 	@media only screen and (min-width : 768px) {
 		.twpolBody, .twpol {
-			position: fixed;
+			position: absolute;
+			width: 100%;
 		}
 		.header {
 			background-size: 100% auto;
@@ -412,8 +413,5 @@ input.signUp{
 			.details {
 				padding: 5%;
 			}
-		}
-		.twpolBody, .twpol {
-			position: inherit;
 		}
 	}
