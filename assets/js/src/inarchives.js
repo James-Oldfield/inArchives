@@ -11,13 +11,13 @@
 
 	smoothScroll.init();
 
-	var counter = countdown(  new Date(2015, 2, 10) ).toString();
-	document.getElementById('countdown').innerHTML = counter;
+	var counter;
+	addToPage();
 
 	window.setInterval(addToPage, 1000);
 
 	function addToPage() {
-		counter = countdown(  new Date(2015, 2, 10) ).toString();
+		counter = countdown(  new Date(2015, 3, 18, 12) ).toString();
 		document.getElementById('countdown').innerHTML = counter;
 	}
 
