@@ -32,19 +32,20 @@ body {
 	border-bottom: solid 3px $myBlack;
 	background: url(../../images/girlBackground.jpg) top;
 	background-size: auto 100%;
-	padding: 30px 20px!important;
+	padding: 75px 20px!important;
 
 	h2{
 		font-family: 'Mohave Italics', sans-serif;
 		letter-spacing: 10px;
 
 		a {
-			color: $myBlack;
+			color: $myWhite;
 			text-decoration: none;
 		}
 	}
 
 	.remind {
+		display: inline-block;
 		margin-top: 50px;
 				a{
 					border: solid 2px $myWhite;

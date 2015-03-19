@@ -35,14 +35,15 @@ body {
   border-bottom: solid 3px #1a1a1a;
   background: url(../../images/girlBackground.jpg) top;
   background-size: auto 100%;
-  padding: 30px 20px !important; }
+  padding: 75px 20px !important; }
   .header h2 {
     font-family: 'Mohave Italics', sans-serif;
     letter-spacing: 10px; }
     .header h2 a {
-      color: #1a1a1a;
+      color: #fff;
       text-decoration: none; }
   .header .remind {
+    display: inline-block;
     margin-top: 50px; }
     .header .remind a {
       border: solid 2px #fff;
