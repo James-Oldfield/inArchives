@@ -85,6 +85,7 @@ Template Name: twpol template
             </div>
         </div>
     </div>
+<p class="credit">Built with &#9829; by <a href="http://james-oldfield.co" target="_blank">JAMES</a></p>
 </div>
 
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>

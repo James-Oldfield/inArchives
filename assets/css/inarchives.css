@@ -159,7 +159,7 @@ input.signUp {
     .twpolMain .details .text-wrap {
       padding: 0px; }
     .twpolMain .details .socialIcons {
-      margin: 10px auto 35px auto; }
+      margin: 10px auto 10px auto; }
       .twpolMain .details .socialIcons img {
         opacity: transition opacity ease 0.2s; }
         .twpolMain .details .socialIcons img:hover {
@@ -199,7 +199,20 @@ input.signUp {
   min-height: 100%;
   margin: 0px; }
 
+.credit {
+  color: rgba(206, 206, 206, 0.75);
+  margin: 25px 0 50px 0;
+  padding: 5px;
+  display: inline-block; }
+  .credit a {
+    color: #fff; }
+  .credit a:hover {
+    color: #fff; }
+
 @media only screen and (min-width: 768px) {
+  .credit {
+    margin: 5px; }
+
   .twpolBody, .twpol {
     position: absolute;
     width: 100%; }

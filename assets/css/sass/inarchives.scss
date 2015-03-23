@@ -205,7 +205,7 @@ input.signUp{
 		}
 
 		.socialIcons {
-			margin: 10px auto 35px auto;
+			margin: 10px auto 10px auto;
 
 			img{
 				opacity: transition opacity ease 0.2s;
@@ -264,9 +264,27 @@ input.signUp{
 	margin: 0px;
 }
 
+.credit {
+	color: $myGrey;
+  margin: 25px 0 50px 0;
+	padding: 5px;
+	display: inline-block;
+
+	a {
+		color: $myWhite;
+	}
+
+	a:hover{
+		color: #fff;
+	}
+}
+
 // MQ'S
 
 	@media only screen and (min-width : 768px) {
+		.credit {
+			margin: 5px;
+		}
 		.twpolBody, .twpol {
 			position: absolute;
 			width: 100%;
