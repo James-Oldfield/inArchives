@@ -79,7 +79,7 @@ Template Name: twpol template
                 <div class="socialIcons">
                     <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
                     <a href="http://www.twitter.com/inarchivesuk"><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
-                    <a href="http://www.inarchives,tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
+                    <a href="http://www.inarchives.tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
                 </div>
 
             </div>
