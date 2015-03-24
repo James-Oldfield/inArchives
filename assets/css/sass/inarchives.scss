@@ -266,9 +266,9 @@ input.signUp{
 
 .credit {
 	color: $myGrey;
-  margin: 25px 0 50px 0;
+  margin: 25px 0;
 	padding: 5px;
-	display: inline-block;
+	font-size: 12px;
 
 	a {
 		color: $myWhite;
@@ -283,7 +283,7 @@ input.signUp{
 
 	@media only screen and (min-width : 768px) {
 		.credit {
-			margin: 5px;
+		  margin: 25px 0;
 		}
 		.twpolBody, .twpol {
 			position: absolute;
@@ -310,7 +310,7 @@ input.signUp{
 		}
 
 		.twpol{
-			padding: 50px 100px;
+			padding: 50px 150px;
 			.logo {
 				margin-top: 0px;
 			}
@@ -321,6 +321,7 @@ input.signUp{
 			border: solid 3px $myBlack;
 			width: 100%;
 			display: inline-block;
+			margin-bottom: 0px!important;
 
 			.twpolHeader {
 				padding: 10px;
@@ -400,6 +401,7 @@ input.signUp{
 		}
 		.twpol {
 			background-size: 100% auto;
+			padding: 50px 200px;
 		}
 		.middleWrapper {
 			padding: 0px;
@@ -409,7 +411,7 @@ input.signUp{
 	  /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1200px) {
     	.twpol {
-    		padding: 50px 250px;
+    		padding: 50px 300px;
     	}
     	.twpolMain {
 				.details {
@@ -432,5 +434,8 @@ input.signUp{
 			.details {
 				padding: 5%;
 			}
+		}
+		.credit {
+			margin-bottom: 20px;
 		}
 	}

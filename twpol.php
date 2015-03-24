@@ -57,7 +57,7 @@ Template Name: twpol template
                 <h2>Pre-order EP <br> and merch bundles</h2>
 
                 <div class="socialIcons">
-                    <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="auto"></a>
+                    <a href="http://www.inarchives.bigcartel.com"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="auto"></a>
                     <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/itunes.png" alt="itunes logo" width="35px" height="auto"></a>
                 </div>
 
@@ -79,7 +79,7 @@ Template Name: twpol template
                 <div class="socialIcons">
                     <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
                     <a href="http://www.twitter.com/inarchivesuk"><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
-                    <a href="https://www.tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
+                    <a href="http://www.inarchives,tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
                 </div>
 
             </div>

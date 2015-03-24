@@ -201,9 +201,9 @@ input.signUp {
 
 .credit {
   color: rgba(206, 206, 206, 0.75);
-  margin: 25px 0 50px 0;
+  margin: 25px 0;
   padding: 5px;
-  display: inline-block; }
+  font-size: 12px; }
   .credit a {
     color: #fff; }
   .credit a:hover {
@@ -211,7 +211,7 @@ input.signUp {
 
 @media only screen and (min-width: 768px) {
   .credit {
-    margin: 5px; }
+    margin: 25px 0; }
 
   .twpolBody, .twpol {
     position: absolute;
@@ -229,7 +229,7 @@ input.signUp {
     font-size: 1vw; }
 
   .twpol {
-    padding: 50px 100px; }
+    padding: 50px 150px; }
     .twpol .logo {
       margin-top: 0px; }
 
@@ -238,7 +238,8 @@ input.signUp {
     padding: 0px;
     border: solid 3px #1a1a1a;
     width: 100%;
-    display: inline-block; }
+    display: inline-block;
+    margin-bottom: 0px !important; }
     .twpolMain .twpolHeader {
       padding: 10px;
       margin-bottom: 25px; }
@@ -283,14 +284,15 @@ input.signUp {
       font-size: 1.25vw; }
 
   .twpol {
-    background-size: 100% auto; }
+    background-size: 100% auto;
+    padding: 50px 200px; }
 
   .middleWrapper {
     padding: 0px; } }
 /* Large Devices, Wide Screens */
 @media only screen and (min-width: 1200px) {
   .twpol {
-    padding: 50px 250px; }
+    padding: 50px 300px; }
 
   .twpolMain .details {
     padding: 20px 30px; }
@@ -303,6 +305,9 @@ input.signUp {
     width: auto; }
 
   .twpolMain .details {
-    padding: 5%; } }
+    padding: 5%; }
+
+  .credit {
+    margin-bottom: 20px; } }
 
 /*# sourceMappingURL=inarchives.css.map */
