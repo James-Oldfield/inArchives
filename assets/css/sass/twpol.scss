@@ -31,7 +31,7 @@ body {
 
 .header {
 	border-bottom: solid 3px $myBlack;
-	background: url(../../images/girlBackground.jpg);
+	background: url(../../images/girlBackground.jpg) cover no-repeat fixed;
 	background-position: 0 0;
 	background-size: cover;
 	padding: 75px 20px!important;
