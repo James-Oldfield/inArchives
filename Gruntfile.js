@@ -18,9 +18,9 @@ module.exports = function( grunt ) {
 			},
 			inarchives: {
 				src: [
-					'assets/js/src/inarchives.js'
+					'assets/js/src/twpol.js'
 				],
-				dest: 'assets/js/inarchives.js'
+				dest: 'assets/js/twpol.js'
 			}
 		},
 		jshint: {
@@ -45,7 +45,7 @@ module.exports = function( grunt ) {
 		uglify: {
 			all: {
 				files: {
-					'assets/js/inarchives.min.js': ['assets/js/inarchives.js']
+					'assets/js/twpol.min.js': ['assets/js/twpol.js']
 				},
 				options: {
 					banner: '/*! <%= pkg.title %> - v<%= pkg.version %> - <%= grunt.template.today("yyyy-mm-dd") %>\n' +
@@ -66,7 +66,7 @@ module.exports = function( grunt ) {
 		sass:   {
 			all: {
 				files: {
-					'assets/css/inarchives.css': 'assets/css/sass/inarchives.scss'
+					'assets/css/twpol.css': 'assets/css/sass/twpol.scss'
 				}
 			}
 		},
@@ -83,7 +83,7 @@ module.exports = function( grunt ) {
 				expand: true,
 				
 				cwd: 'assets/css/',
-				src: ['inarchives.css'],
+				src: ['twpol.css'],
 				
 				dest: 'assets/css/',
 				ext: '.min.css'

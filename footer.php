@@ -5,7 +5,7 @@
 
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/b.js"></script>
-<script src="<?php bloginfo( 'template_url' );?>/assets/js/inarchives.min.js"></script>
+<script src="<?php bloginfo( 'template_url' );?>/assets/js/twpol.min.js"></script>
 
 </body>
 </html>
