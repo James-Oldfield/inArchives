@@ -32,8 +32,8 @@ body {
 .header {
 	border-bottom: solid 3px $myBlack;
 	background: url(../../images/girlBackground.jpg);
-	background-position: top;
-	background-size: cover;
+	background-size: cover!important;
+	background-position: top!important;
 	padding: 75px 20px!important;
 
 	h2{

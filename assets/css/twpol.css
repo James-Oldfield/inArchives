@@ -35,8 +35,8 @@ body {
 .header {
   border-bottom: solid 3px #1a1a1a;
   background: url(../../images/girlBackground.jpg);
-  background-position: top;
-  background-size: cover;
+  background-size: cover !important;
+  background-position: top !important;
   padding: 75px 20px !important; }
   .header h2 {
     font-family: 'Mohave Italics', sans-serif;
