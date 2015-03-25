@@ -16,12 +16,13 @@ $myGrey: rgba(206, 206, 206, 0.75);
     color: $myWhite;
     background: $myBlack;
 }
-::-moz-selection{
+::-moz-selection {
     color: $myWhite;
     background: $myBlack;
 }
 
 body {
+	text-transform: uppercase;
  	font-family: 'Mohave', sans-serif!important;
  	background: $myWhite;
  	margin-top: -20px;
@@ -30,8 +31,9 @@ body {
 
 .header {
 	border-bottom: solid 3px $myBlack;
-	background: url(../../images/girlBackground.jpg) top;
-	background-size: auto 100%;
+	background: url(../../images/girlBackground.jpg);
+	background-position: top;
+	background-size: cover;
 	padding: 75px 20px!important;
 
 	h2{
