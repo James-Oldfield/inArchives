@@ -15,7 +15,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!--css-->
-        <link rel="stylesheet" href="<?php bloginfo( 'template_url' );?>/style.css" type="text/css" />
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
         
         <!--Favicon-->

@@ -81,6 +81,7 @@ module.exports = function( grunt ) {
 			},
 			minify: {
 				expand: true,
+				shorthandCompacting: false,
 				
 				cwd: 'assets/css/',
 				src: ['twpol.css'],
