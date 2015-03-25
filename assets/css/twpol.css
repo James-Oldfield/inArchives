@@ -35,8 +35,8 @@ body {
 .header {
   border-bottom: solid 3px #1a1a1a;
   background: url(../../images/girlBackground.jpg);
-  background-size: cover !important;
-  background-position: top !important;
+  background-position: 0 0;
+  background-size: cover;
   padding: 75px 20px !important; }
   .header h2 {
     font-family: 'Mohave Italics', sans-serif;
@@ -219,12 +219,10 @@ input.signUp {
     position: absolute;
     width: 100%; }
 
-  .header {
-    background-size: 100% auto; }
-    .header h3 a {
-      color: #1a1a1a; }
-    .header #countdown {
-      color: #1a1a1a; }
+  .header h3 a {
+    color: #1a1a1a; }
+  .header #countdown {
+    color: #1a1a1a; }
 
   .main .title p {
     font-size: 18px;
