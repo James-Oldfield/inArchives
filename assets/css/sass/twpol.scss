@@ -30,8 +30,10 @@ body {
 }
 
 .header {
+	background: url(../../images/girlBackground.jpg) cover no-repeat fixed $myBlack;
+	background-position: 0 0;
+	background-size: cover;
 	border-bottom: solid 3px $myBlack;
-	background: $myBlack;
 	padding: 75px 20px!important;
 
 	h2{
@@ -139,11 +141,11 @@ input.signUp{
 }
 
 .twpolBody {
-		background: url(../../images/girlBackground.jpg) center fixed no-repeat;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-		background-size: cover;
+	background: url(../../images/girlBackground.jpg) center fixed no-repeat $myBlack;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	background-size: cover;
 }
 
 // TWPOL PAGE
@@ -229,7 +231,7 @@ input.signUp{
 		    transition: background-color 0.25s ease;
 
 		    &:hover{
-		        background: $myBlack; 
+	        background: $myBlack; 
 		        color: $myWhite;
 		    }
 			}
@@ -290,9 +292,6 @@ input.signUp{
 			width: 100%;
 		}
 		.header {
-			background: url(../../images/girlBackground.jpg) cover no-repeat fixed;
-			background-position: 0 0;
-			background-size: cover;
 
 			h3{
 				a {

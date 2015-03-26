@@ -50,8 +50,6 @@ define( 'WPTHEME_VERSION', '0.1.0' );
   */
  function wptheme_scripts_styles() {
 	$postfix = ( defined( 'SCRIPT_DEBUG' ) && true === SCRIPT_DEBUG ) ? '' : '.min';
-
-	wp_enqueue_script( 'wptheme', get_template_directory_uri() . "/assets/js/twpol.js", array(), WPTHEME_VERSION, true );
 		
 	wp_enqueue_style( 'wptheme', get_template_directory_uri() . "/assets/css/twpol{$postfix}.css", array(), WPTHEME_VERSION );
  }
