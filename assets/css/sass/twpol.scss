@@ -31,9 +31,7 @@ body {
 
 .header {
 	border-bottom: solid 3px $myBlack;
-	background: url(../../images/girlBackground.jpg) cover no-repeat fixed;
-	background-position: 0 0;
-	background-size: cover;
+	background: $myBlack;
 	padding: 75px 20px!important;
 
 	h2{
@@ -292,6 +290,9 @@ input.signUp{
 			width: 100%;
 		}
 		.header {
+			background: url(../../images/girlBackground.jpg) cover no-repeat fixed;
+			background-position: 0 0;
+			background-size: cover;
 
 			h3{
 				a {
