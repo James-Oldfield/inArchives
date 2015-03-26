@@ -30,9 +30,8 @@ body {
 }
 
 .header {
-	background: url(../../images/background.jpg) cover no-repeat fixed $myBlack;
+	background: url(../../images/background.jpg) cover no-repeat fixed;
 	background-position: 0 0;
-	background-size: cover;
 	border-bottom: solid 3px $myBlack;
 	padding: 75px 20px!important;
 
