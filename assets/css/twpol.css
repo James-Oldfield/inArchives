@@ -1,5 +1,5 @@
 /**
- * inArchives
+ * twpol
  * http://james-oldfield.co
  *
  * Copyright (c) 2015 James Oldfield
@@ -33,7 +33,7 @@ body {
   word-wrap: break-word !important; }
 
 .header {
-  background: url(../../images/girlBackground.jpg) cover no-repeat fixed #1a1a1a;
+  background: url(../../images/background.jpg) cover no-repeat fixed #1a1a1a;
   background-position: 0 0;
   background-size: cover;
   border-bottom: solid 3px #1a1a1a;
