@@ -47,7 +47,7 @@ Template Name: twpol template
             </div>
             <div class="col-xs-12 col-sm-5">
                 <div class="albumWrapper">
-                    <img src="<?php bloginfo( 'template_url' );?>/images/albumArt.jpg" alt="Girl album artwork" width="auto%" height="100%">
+                    <img src="<?php bloginfo( 'template_url' );?>/images/albumArt.jpg" alt="Girl album artwork" width="auto" height="100%">
                 </div>
         	</div>
         </div>
@@ -90,7 +90,6 @@ Template Name: twpol template
 
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/a.js"></script>
 <script src="<?php bloginfo( 'template_url' );?>/assets/js/vendor/b.js"></script>
-<script src="<?php bloginfo( 'template_url' );?>/assets/js/inarchives.min.js"></script>
 
 </body>
 </html>
