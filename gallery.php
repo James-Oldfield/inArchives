@@ -35,7 +35,7 @@ Template Name: gallery template
 	<h1 class="galleryTitle">INARCHIVES</h1>
 	<h2><a href="/">THE WORST PART OF LIFE</a></h2>
 	<h3 class="gallerySubtitle">GALLERY</h3>
-	<a class="gallery" style="margin-top:50px;" href="/">BACK TO MAIN SITE</a>
+	<a class="gallery" style="margin-top:50px;" href="../">BACK TO MAIN SITE</a>
 </div>
 
 	<div class="main container text-center">
