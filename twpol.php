@@ -36,6 +36,7 @@ Template Name: twpol template
         <div class="col-xs-12 twpolHeader">
             <h1>INARCHIVES</h1>
             <h2>THE WORST PART OF LIFE</h2>
+	      		<a class="gallery" href="./gallery">GALLERY</a>
         </div>
         <div class="middleWrapper">
             <div class="col-xs-12 col-sm-7">
@@ -82,7 +83,11 @@ Template Name: twpol template
                 </div>
 
             </div>
+          	<div class="col-xs-12">
+	        		<!-- <img src="<?php bloginfo( 'template_url' );?>/images/gallery.png" alt="" width="35px" height="35px"> -->
+						</div>
         </div>
+
     </div>
 <p class="credit">Built with &#9829; by <a href="http://james-oldfield.co" target="_blank">JAMES</a></p>
 </div>
