@@ -55,8 +55,9 @@ Template Name: twpol template
                 <h2>Pre-order EP <br> and merch bundles</h2>
 
                 <div class="socialIcons">
-                    <a href="http://www.inarchives.bigcartel.com"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="auto"></a>
-                    <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/itunes.png" alt="itunes logo" width="35px" height="auto"></a>
+                    <a href="http://www.inarchives.bigcartel.com"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="35px"></a>
+                    <a href="https://inarchives.bandcamp.com/"><img src="<?php bloginfo( 'template_url' );?>/images/bandcamp.png" alt="bandcamp logo" width="35px" height="35px"></a>
+                    <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/itunes.png" alt="itunes logo" width="35px" height="35px"></a>
                 </div>
 
             </div>
@@ -64,20 +65,20 @@ Template Name: twpol template
                 <h2>Stream "The worst part of life" <br> EP for free</h2>
 
                 <!-- <div class="socialIcons">
-                    <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="auto"></a>
-                    <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="auto"></a>
+                    <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/spotify.png" alt="spotify logo" width="35px" height="35px"></a>
+                    <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="35px"></a>
                 </div> -->
 
-                <h4 class="releaseDate">11/04/15</h4>
+                <h4 class="releaseDate">04/05/15</h4>
 
             </div>            
             <div class="text-wrap col-xs-12 col-sm-4">
                 <h2>follow us <br> online</h2>
 
                 <div class="socialIcons">
-                    <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="auto"></a>
-                    <a href="http://www.twitter.com/inarchivesuk"><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="auto"></a>
-                    <a href="http://www.inarchives.tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="auto"></a>
+                    <a href="https://www.facebook.com/InArchives"><img src="<?php bloginfo( 'template_url' );?>/images/fb.png" alt="facebook logo" width="35px" height="35px"></a>
+                    <a href="http://www.twitter.com/inarchivesuk"><img src="<?php bloginfo( 'template_url' );?>/images/twitter.png" alt="twitter logo" width="35px" height="35px"></a>
+                    <a href="http://www.inarchives.tumblr.com"><img src="<?php bloginfo( 'template_url' );?>/images/tumblr.png" alt="tumblr logo" width="35px" height="35px"></a>
                 </div>
 
             </div>
