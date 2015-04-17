@@ -34,12 +34,14 @@ Template Name: gallery template
 <div class="header galleryHeader text-center">
 	<h1 class="galleryTitle">INARCHIVES</h1>
 	<h2><a href="/">THE WORST PART OF LIFE</a></h2>
-	<h3 class="gallerySubtitle">GALLERY</h3>
-	<a class="gallery" style="margin-top:50px;" href="../">BACK TO MAIN SITE</a>
+	<h3>Send us your photos here: <a href="mailto:theworstpartoflife@gmail.com">THEWORSTPARTOFLIFE@GMAIL.COM</a></h3>
+	<a class="backToMain" style="margin-top:50px;" href="../">BACK TO MAIN SITE</a>
 </div>
 
 	<div class="main container text-center">
-	    
+    <div class="col-xs-12">
+			<h2 style="margin-bottom:50px;" class="gallerySubtitle">GALLERY</h2>
+    </div>
 	<!--post loop-->
 	<!--display thumbnail loop-->
 	<?php
@@ -77,6 +79,17 @@ Template Name: gallery template
 		<p>&copy; IN ARCHIVES 2015</p>
 		<p>Built with &#9829; by <a href="http://james-oldfield.co" target="_blank">JAMES</a></p>
 	</div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61978313-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 </body>
 </html>
