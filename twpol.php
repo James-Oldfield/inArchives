@@ -23,6 +23,16 @@ Template Name: twpol template
     
     <!--Favicon-->
     <link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.ico" />
+
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61978313-1', 'auto');
+  ga('send', 'pageview');
+	</script>
     
     <?php wp_head()?>
 </head>
@@ -41,7 +51,7 @@ Template Name: twpol template
         <div class="middleWrapper">
             <div class="col-xs-12 col-sm-7">
                 <div class="videoWrapper">
-                    <iframe width="560" height="315" src="http://www.youtube.com/embed/rp4S-vtUz34" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/NjHL6QOf-FA" frameborder="0" allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-5">
@@ -58,7 +68,6 @@ Template Name: twpol template
                 <div class="socialIcons">
                     <a href="http://www.inarchives.bigcartel.com"><img src="<?php bloginfo( 'template_url' );?>/images/bigcartel.png" alt="bigcartel logo" width="35px" height="35px"></a>
                     <a href="https://inarchives.bandcamp.com/"><img src="<?php bloginfo( 'template_url' );?>/images/bandcamp.png" alt="bandcamp logo" width="35px" height="35px"></a>
-                    <a href="#"><img src="<?php bloginfo( 'template_url' );?>/images/itunes.png" alt="itunes logo" width="35px" height="35px"></a>
                 </div>
 
             </div>
@@ -70,7 +79,7 @@ Template Name: twpol template
                     <a href=""><img src="<?php bloginfo( 'template_url' );?>/images/youtube.png" alt="youtube logo" width="35px" height="35px"></a>
                 </div> -->
 
-                <h4 class="releaseDate">04/05/15</h4>
+                <h4 class="releaseDate">11/05/15</h4>
 
             </div>            
             <div class="text-wrap col-xs-12 col-sm-4">
@@ -91,17 +100,6 @@ Template Name: twpol template
     </div>
 <p class="credit">Built with &#9829; by <a href="http://james-oldfield.co" target="_blank">JAMES</a></p>
 </div>
-
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-61978313-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 </body>
 </html>
