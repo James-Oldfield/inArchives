@@ -98,7 +98,7 @@ Template Name: twpol template
         </div>
 
     </div>
-<p class="credit">Built with &#9829; by <a href="http://james-oldfield.co" target="_blank">JAMES</a></p>
+<p class="credit">Built with &#9829; by <a href="http://james-oldfield.co">JAMES</a></p>
 </div>
 
 </body>
